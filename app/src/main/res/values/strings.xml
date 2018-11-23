@@ -75,4 +75,16 @@
 
     <string name="pref_title_vibrate">Vibrate</string>
     <string name="create_alarm">New Alarm</string>
+    <string name="set_time">Edit Time</string>
+    <string name="check_mon">Monday</string>
+    <string name="check_tues">Tuesday</string>
+    <string name="check_wed">Wednesday</string>
+    <string name="check_thurs">Thursday</string>
+    <string name="check_fri">Friday</string>
+    <string name="check_sat">Saturday</string>
+    <string name="check_sun">Sunday</string>
+    <string name="radio_nothing">None</string>
+    <string name="radio_shaker">Shake</string>
+    <string name="radio_rotater">Rotate</string>
+    <string name="submit">Submit</string>
 </resources>
