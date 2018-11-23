@@ -65,8 +65,7 @@ public class NewAlarm extends AppCompatActivity {
         final Button submit = findViewById(R.id.submitButton);
         submit.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                DialogFragment newFragment = new TimePickerFragment();
-                newFragment.show(getSupportFragmentManager(), "timePicker");
+                finish();
             }
         });
 
