@@ -8,30 +8,17 @@
     tools:context=".MainMenu"
     tools:showIn="@layout/activity_main_menu">
 
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/AlarmList"
-        android:layout_width="352dp"
-        android:layout_height="319dp"
-        android:layout_marginBottom="16dp"
+    <TextView
+        android:id="@+id/switch1"
+        android:layout_width="308dp"
+        android:layout_height="170dp"
         android:layout_marginEnd="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
         android:layout_marginStart="16dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Switch
-        android:id="@+id/switch1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="16dp"
-        android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
-        android:checked="true"
-        android:text="Default"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:checked="true" />
-
+        app:layout_constraintTop_toTopOf="parent" />
 </android.support.constraint.ConstraintLayout>

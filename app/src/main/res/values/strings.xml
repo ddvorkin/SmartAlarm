@@ -87,4 +87,5 @@
     <string name="radio_shaker">Shake</string>
     <string name="radio_rotater">Rotate</string>
     <string name="submit">Submit</string>
+    <string name="shut_off">Stop</string>
 </resources>

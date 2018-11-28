@@ -26,6 +26,17 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainMenu" />
         </activity>
+        <activity android:name=".Tap"
+            android:screenOrientation="portrait">
+        </activity>
+        <receiver
+            android:name=".AlarmReceiver"
+            android:enabled="true"
+            android:process=":remote">
+            <intent-filter>
+                <action android:name=".alarmIntent"/>
+            </intent-filter>
+        </receiver>
     </application>
 
 </manifest>
