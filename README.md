@@ -1,4 +1,4 @@
-SmartAlarm for cs580S by Gaurang Dhake & David Dvorkin
+SmartAlarm for cs580S David Dvorkin
 
 Functional and presentable.
 
