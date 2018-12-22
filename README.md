@@ -1,5 +1,7 @@
 SmartAlarm for cs580S David Dvorkin
 
+Import of my original code from BitBucket.
+
 Functional and presentable.
 
 List of known bugs:
